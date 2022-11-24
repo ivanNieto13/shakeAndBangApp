@@ -16,7 +16,7 @@ class Player {
     }
     
     private func loadAudio() {
-        guard let mp3URL = Bundle.main.url(forResource: "bang", withExtension: "mp3")
+        guard let mp3URL = Bundle.main.url(forResource: "loud_bang", withExtension: "mp3")
         else { return }
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: mp3URL)

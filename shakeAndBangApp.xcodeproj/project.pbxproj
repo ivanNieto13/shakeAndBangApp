@@ -8,23 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		7BCF28B3292FE2AD00FB9D93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BCF28B2292FE2AD00FB9D93 /* Assets.xcassets */; };
+		7BCF28B5292FE48A00FB9D93 /* loud_bang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BCF28B4292FE48A00FB9D93 /* loud_bang.mp3 */; };
 		7BD4A949292F2FF800AA5D2F /* shakeAndBangAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4A948292F2FF800AA5D2F /* shakeAndBangAppApp.swift */; };
 		7BD4A94B292F2FF800AA5D2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4A94A292F2FF800AA5D2F /* ContentView.swift */; };
 		7BD4A950292F2FF900AA5D2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BD4A94F292F2FF900AA5D2F /* Preview Assets.xcassets */; };
 		7BD4A958292F339E00AA5D2F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4A957292F339E00AA5D2F /* AVFoundation.framework */; };
 		7BD4A95A292F3C3900AA5D2F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4A959292F3C3900AA5D2F /* Player.swift */; };
-		7BD4A95E292F3D4D00AA5D2F /* bang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BD4A95D292F3D4D00AA5D2F /* bang.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7BCF28B2292FE2AD00FB9D93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BCF28B4292FE48A00FB9D93 /* loud_bang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loud_bang.mp3; sourceTree = "<group>"; };
 		7BD4A945292F2FF800AA5D2F /* shakeAndBangApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shakeAndBangApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BD4A948292F2FF800AA5D2F /* shakeAndBangAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shakeAndBangAppApp.swift; sourceTree = "<group>"; };
 		7BD4A94A292F2FF800AA5D2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7BD4A94F292F2FF900AA5D2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7BD4A957292F339E00AA5D2F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		7BD4A959292F3C3900AA5D2F /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		7BD4A95D292F3D4D00AA5D2F /* bang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bang.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				7BCF28B2292FE2AD00FB9D93 /* Assets.xcassets */,
-				7BD4A95D292F3D4D00AA5D2F /* bang.mp3 */,
+				7BCF28B4292FE48A00FB9D93 /* loud_bang.mp3 */,
 				7BD4A948292F2FF800AA5D2F /* shakeAndBangAppApp.swift */,
 				7BD4A94A292F2FF800AA5D2F /* ContentView.swift */,
 				7BD4A94E292F2FF900AA5D2F /* Preview Content */,
@@ -144,8 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BD4A950292F2FF900AA5D2F /* Preview Assets.xcassets in Resources */,
+				7BCF28B5292FE48A00FB9D93 /* loud_bang.mp3 in Resources */,
 				7BCF28B3292FE2AD00FB9D93 /* Assets.xcassets in Resources */,
-				7BD4A95E292F3D4D00AA5D2F /* bang.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
